@@ -54,6 +54,6 @@ class AwsMfa < Formula
   end
 
   test do
-    system "aws-mfa -h"
+    system "#{bin}/aws-mfa", "-h"
   end
 end
